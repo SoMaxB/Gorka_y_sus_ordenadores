@@ -1,0 +1,16 @@
+public class Main {
+    public static void main(String[] args) {
+        Cocina GorkaCocina = new Cocina();
+        GorkaCocina.ponerOrdenador();
+        GorkaCocina.ponerOrdenador();
+        GorkaCocina.ponerOrdenador();
+        GorkaCocina.ponerOrdenador();
+        System.out.println("Gorka tiene " + GorkaCocina.Ordenador + " ordenadores en la cocina");
+    }
+}
+
+class Cocina {
+    public int Ordenador;
+    public void ponerOrdenador(){
+        this.Ordenador++;
+    }
